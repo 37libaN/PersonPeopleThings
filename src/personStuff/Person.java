@@ -23,4 +23,23 @@ public class Person {
 		salary += 1000.0;
 	}
 	
+	public String mailingAddress(){
+		return place.mailingAddress();
+	}
+	
+	public String nameTag(){
+		return job.nameTag();
+	}
+	
+	public String projectSummary(){
+		return cool.projectSummary();
+	}
+	
+	public String aboutMe(){
+		return boring.aboutMe();
+	}
+	
+	public String mySchedule(){
+		return wierd.mySchedule();
+	}
 }
